@@ -13,6 +13,8 @@ We plan to show a gust passing through a small forest beside a creek. The viewer
 3. **Vegetation and shadows (Lectures 19 and 08).** We will use an HLSL vertex shader to keep roots fixed, bend the branches and flutter the leaves. The shadow pass will use the same deformed vertices so the branch silhouette moves across the bank.
 4. **Camera replay (Lecture 18).** We will reset one clock for each eight-second run. The first camera will hold still. The second will start at the same pose and follow a cubic Bézier curve along the creek.
 
+**Wind model to investigate.** The traveling pulse assumes the air moves at a speed we choose. To explore Professor Slocum’s suggestion, we will also study a small 2D airflow grid. We could inject a gust at the upstream edge and let the simulated velocity carry it across the grid. Using the same two trees and fixed camera would let us compare how the grid and the noise field affect the order and direction of branch motion. [Jos Stam, *Real-Time Fluid Dynamics for Games*](https://www.dgp.toronto.edu/public_user/stam/reality/Research/pdf/GDC03.pdf)
+
 ## Setup and Run
 
 The current checkout opens the Unity starter scene. Install **Unity Editor 6000.3.25f1** through Unity Hub. The project manifest requests **Universal Render Pipeline 17.3.0**, which Unity resolves on first open. [Editor version](ProjectSettings/ProjectVersion.txt) · [Package manifest](Packages/manifest.json)
