@@ -36,6 +36,7 @@
 
 # Visual Studio cache directory
 .vs/
+/.vsconfig
 
 # Gradle cache directory
 .gradle/
@@ -107,3 +108,6 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local research and planning notes
+/docs/local/
