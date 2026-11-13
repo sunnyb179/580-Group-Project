@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 548b2492dd481714bbeb9d1c11e06845
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277464
+  packageName: poly coniferous forest
+  packageVersion: 1.1
+  assetPath: Assets/coniferous_forest/Materials/T_forest.mat
+  uploadId: 813486

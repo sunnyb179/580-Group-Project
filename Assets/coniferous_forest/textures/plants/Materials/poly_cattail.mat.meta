@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ed65328d5e1b0dc488c7e6685e71e66b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277464
+  packageName: poly coniferous forest
+  packageVersion: 1.1
+  assetPath: Assets/coniferous_forest/textures/plants/Materials/poly_cattail.mat
+  uploadId: 813486
