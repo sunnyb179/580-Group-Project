@@ -34,6 +34,8 @@ The current checkout opens the Unity starter scene. Install **Unity Editor 6000.
 
 3. In the Project window, open `Assets/Scenes/SampleScene.unity` and press **Play**. The forest and replay controls are planned for a later scene.
 
+   To try the camera trails, open `Assets/Scenes/CameraTest.unity` and press **Play**. Watch the leaf edges against the sky as the camera picks up speed. [Camera prototype](Assets/Datamoshing/README.md)
+
 ## Results
 
 **Expected result.** We plan to record one fixed shot and one fly-through. In the fixed shot, the nearer crown should bend first and its shadow should move across the bank. For the replay check, we will pause each run at 2 and 4 seconds and inspect the marked branches and shadows through the same fixed camera. We will add the paired clips and describe what we actually observed once the forest runs.
@@ -53,4 +55,4 @@ Our team is Qiuyi Chen, Wenting Zhang, Zhehao Cai and Zhongbo Sun. Professor Car
 
 - Renaldas Zioma describes how a vertex shader can animate trees using a wind field. [GPU Gems 3, Chapter 6](https://developer.nvidia.com/gpugems/gpugems3/part-i-geometry/chapter-6-gpu-generated-procedural-wind-animations-trees)
 - We are considering these visual references for the tree canopy and creek surface. [StylizedTrees by mozankatip](https://github.com/mozankatip/StylizedTrees) · [Uber Stylized Water by MatrixRex](https://github.com/MatrixRex/Uber-Stylized-Water)
-- Jam2go’s real-time datamoshing demo inspired an optional effect that would stretch fragments of earlier frames during camera acceleration. [Unreal demo](https://www.youtube.com/watch?v=Uapad3pVxBY)
+- Jam2go’s real-time datamoshing demo inspired the camera trails in `CameraTest`. [Unreal demo](https://www.youtube.com/watch?v=Uapad3pVxBY)
